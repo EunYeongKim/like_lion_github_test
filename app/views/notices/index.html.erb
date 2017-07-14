@@ -1,0 +1,23 @@
+<h1>Nokogiri</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Title</th>
+            <th>Link</th>
+            <th>Created On</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <% @notices.each do |notice| %>
+        <tr>
+            <td><%= notice.number %></td>
+            <td><%= notice.title %></td>
+            <td><%= notice.link %></td>
+            <td><%= notice.created_on %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
