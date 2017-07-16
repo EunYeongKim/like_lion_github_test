@@ -17,7 +17,6 @@ class Notice < ActiveRecord::Base
     end
 end
 
+#2222222222222222222222222222222222
 #here is branch
-#test
-#aaaaaaaaaaa
-#bbbbbbbbbbbbbbbb
+#test2
