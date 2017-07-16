@@ -1,11 +1,6 @@
 require 'nokogiri'
 require 'open-uri'
 class Notice < ActiveRecord::Base
-    #왜 커밋할게 없다고 나올까...ㅂㄷㅂㄷ
-    #아 저장해야함~ㅈㅓ장해야지 커밋할게 있다고 나옴
-    #여기서 https를 쓰면 작동이 안됨
-    #왜 그런지 잘은 모르겠음
-    #url = https://www.snu.ac.kr/notice
     url = "http://www.snu.ac.kr/notice"
     data = Nokogiri::HTML(open(url)) #html파일 받아와서 nokogiri
     
@@ -20,5 +15,3 @@ class Notice < ActiveRecord::Base
             )
     end
 end
-
-print """+url+""" 
