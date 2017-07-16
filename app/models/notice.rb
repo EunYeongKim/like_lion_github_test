@@ -7,6 +7,7 @@ class Notice < ActiveRecord::Base
     @notices = data.css('tbody tr')
     @notices.each do |notice|
         Notice.create(
+            #Rmdkdkdkdkkd
             :number => notice.css('td')[0].text.strip,
             :title => notice.css('td.left a').text.strip, 
             #.text=>text를 가져오겠다 .strip=>줄바꿈등등 무시
@@ -15,3 +16,6 @@ class Notice < ActiveRecord::Base
             )
     end
 end
+
+print url
+#dmdkddmdmdk풀 좀 되라
