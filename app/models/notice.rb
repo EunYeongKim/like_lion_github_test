@@ -16,3 +16,8 @@ class Notice < ActiveRecord::Base
             )
     end
 end
+
+#here is branch
+#test
+#aaaaaaaaaaa
+#bbbbbbbbbbbbbbbb
