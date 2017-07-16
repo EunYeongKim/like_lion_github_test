@@ -17,5 +17,6 @@ class Notice < ActiveRecord::Base
     end
 end
 
-print url
-#dmdkddmdmdk풀 좀 되라
+#here is branch "test"
+
+#여기는 branch test
