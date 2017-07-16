@@ -15,3 +15,5 @@ class Notice < ActiveRecord::Base
             )
     end
 end
+
+#here is master
